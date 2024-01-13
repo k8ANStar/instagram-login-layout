@@ -1,0 +1,30 @@
+.form {
+	width: 100%;
+	padding: 0 50px;
+	display: block;
+	flex-direction: column;
+	align-items: flex-end;
+	box-sizing: border-box;
+}
+
+.box {
+	padding: 23px;
+	margin: 4px 0;
+	background-color: rgb(250, 250, 250);
+	color: #262626;
+	width: 100%;
+	height: 30px;
+	border-radius: 4px;
+	align-items: center;
+	border: 1px solid rgb(205, 205, 205);
+	justify-content: center;
+	position: relative;
+	box-sizing: border-box;
+	font-size: medium;
+}
+
+@media only screen and (max-width: 700px) {
+	.form {
+		padding: 0 80px;
+	}
+}
